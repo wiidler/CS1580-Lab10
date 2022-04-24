@@ -51,16 +51,22 @@ int GuildMember::operator[](const int choice) const{
     switch(choice){
         case 0:
             return m_strength;
+            break;
         case 1:
             return m_wisdom;
+            break;
         case 2:
             return m_dex;
+            break;
         case 3:
             return m_char;
+            break;
         case 4:
             return m_intel;
+            break;
         default:
             return 0;
+            break;
     }
 }
 // Friend Functions
